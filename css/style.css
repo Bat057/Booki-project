@@ -12,6 +12,17 @@
 .fa-solid {
     color: var(--main-color);
 }
+header{
+    height: 79px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    
+}
+
 
 body {
     display: flex;
@@ -56,6 +67,77 @@ a {
 
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+/****** Header ***********/
+
+nav img {
+    
+    width: 61.089656829833984px;
+    height: 19px;
+    padding: 30px 0px 0px 0px;
+}
+
+nav ul {
+    display: flex;
+    gap: 68px;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+nav #hebergement:hover{
+    border-top: 2px solid #0065FC;
+    padding-top: 16px;  
+    color:#0065FC;   
+}
+
+nav #activite:hover{
+    border-top: 2px solid #0065FC;
+    padding-top: 16px;  
+    color:#0065FC ;   
+}
+
+#headline h1{
+    font-size: 22px;
+    margin:0px 0px 8px 0px;
+}
+
+#headline p{
+    margin: 0px 0px 35px 0px;
+}
+
+.search-bar{
+    display: flex;
+    width: 377px;
+    height: 49px;
+    gap: 24px;
+    border-radius: 15px;
+    border-width: 1px;
+    align-items: center;
+    
+    
+
+}
+
+.bordure-gauche{   
+    width: 50px;
+height: 49px;
+border-width: 1px;
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+background: #F2F2F2;
+border: 1px solid #F2F2F2;
+
+}
+
+.fa-solid {
+    width: 14px;
+height: 18px;
+margin:15px 0px 0px 18px;
+
+
+
 }
 
 /****** Hebergements And Populaires ***********/
