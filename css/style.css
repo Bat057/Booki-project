@@ -98,6 +98,8 @@ nav #activite:hover{
     color:#0065FC ;   
 }
 
+/****** Headline, searchbar, filter ***********/
+
 #headline h1{
     font-size: 22px;
     margin:0px 0px 8px 0px;
@@ -108,35 +110,69 @@ nav #activite:hover{
 }
 
 .search-bar{
-    display: flex;
-    width: 377px;
-    height: 49px;
-    gap: 24px;
-    border-radius: 15px;
-    border-width: 1px;
-    align-items: center;
     
+    display: flex;
+    width: 100%;    
+}
+
     
 
-}
 
 .bordure-gauche{   
     width: 50px;
-height: 49px;
-border-width: 1px;
-border-top-left-radius: 15px;
-border-bottom-left-radius: 15px;
-background: #F2F2F2;
-border: 1px solid #F2F2F2;
-
+    height: 47px;   
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: #F2F2F2;
+    border: 1px solid #F2F2F2;
 }
 
-.fa-solid {
+.fa-location-dot {
     width: 14px;
-height: 18px;
-margin:15px 0px 0px 18px;
+    height: 18px;
+    margin:15px 0px 0px 18px;
+}
 
+input#search{
+    
+    outline: none; 
+    font-weight: 700;
+    font-size: 18px;  
+    border: 1px solid #F2F2F2;
+    padding: 15px 0px 15px 24px;
+    box-sizing: border-box;
+    width: 195px;
+    height: 49px;
+}
 
+input#submit{
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    outline: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 15px 16px 15px 16px;
+    border: 1px solid #0065FC;
+    background: #0065FC;
+    width: 132px;
+    height: 49px;   
+}
+
+.submit-mobile{
+    display:none;
+    width: 49px;
+    padding: 15x 16px 15px 16px;
+    border: 1px solid #0065FC;
+    background: #0065FC;
+    border-radius: 15px;      
+}
+
+.fa-magnifying-glass{
+
+    width: 17px;
+
+    height: 17px;
 
 }
 
