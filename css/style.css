@@ -75,7 +75,7 @@ nav img {
     
     width: 61.089656829833984px;
     height: 19px;
-    padding: 30px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
 }
 
 nav ul {
@@ -86,19 +86,15 @@ nav ul {
     
 }
 
-nav #hebergement:hover{
+nav a:hover{
     border-top: 2px solid #0065FC;
-    padding-top: 16px;  
+    padding-top: 15px;  
     color:#0065FC;   
 }
 
-nav #activite:hover{
-    border-top: 2px solid #0065FC;
-    padding-top: 16px;  
-    color:#0065FC ;   
-}
 
-/****** Headline, searchbar, filter ***********/
+
+/****** Headline ***********/
 
 #headline h1{
     font-size: 22px;
@@ -115,7 +111,7 @@ nav #activite:hover{
     width: 100%;    
 }
 
-    
+/****** Searchbar ***********/  
 
 
 .bordure-gauche{   
@@ -128,9 +124,9 @@ nav #activite:hover{
 }
 
 .fa-location-dot {
-    width: 14px;
-    height: 18px;
+    
     margin:15px 0px 0px 18px;
+    font-size: 18px;
 }
 
 input#search{
@@ -160,7 +156,7 @@ input#submit{
 }
 
 .submit-mobile{
-    display:none;
+    display: none;
     width: 49px;
     padding: 15x 16px 15px 16px;
     border: 1px solid #0065FC;
@@ -168,13 +164,66 @@ input#submit{
     border-radius: 15px;      
 }
 
-.fa-magnifying-glass{
+/****** Filter ***********/
 
-    width: 17px;
+.fa-li {
 
-    height: 17px;
+    position: initial;
+    padding-right: 10px;
+    font-size: 22px;
+    
+}
+
+.fa-ul{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 0px;
+    margin-top: 35px;
+    
+}
+
+.li-filter{
+    border-radius: 25px;
+    border-width: 2px;
+    padding: 10px 19px 10px 19px;
+    margin-left: 15px;
+    border: 2px solid #D9D9D9
+}
+
+.section .li-filter:hover{
+    background-color: #DEEBFF;
+}
+
+#infobar{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    gap: 10px;
+}
+
+.fa-info:before{
+    margin: 4px 0px 0px 10px;
+    font-size: 10px;
+}
+.fa-info{
+    border: 1px solid #D9D9D9;
+    border-radius:25px;
+    width: 24px;
+    height: 24px;
+    padding: 0px 0px 0px 0px;
+    
+    
+  
+    
 
 }
+
+
+
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
