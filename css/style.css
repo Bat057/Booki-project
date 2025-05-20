@@ -153,7 +153,7 @@ input#submit {
     display: none;
     visibility: hidden;
     width: 49px;
-    padding: 15x 16px 15px 16px;
+    padding: 15px 16px 15px ;
     border: 1px solid #0065FC;
     background: #0065FC;
     border-radius: 15px;
